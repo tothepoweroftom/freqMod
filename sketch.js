@@ -76,7 +76,7 @@ var decayTime = 0.2;
 var susPercent = 0.2;
 var releaseTime = 0.5;
 function setup() {
-  var cnv = createCanvas(800,400);
+  var cnv = createCanvas(1000,800);
   noFill();
   button = createButton("Trigger")
   button.position(820,480);
